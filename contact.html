@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SecureTech Solutions</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      form label {
+        margin: 10px 0 5px;
+      }
+      form input,
+      form textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      form button {
+        padding: 10px;
+        border: none;
+        background: #333;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      form button:hover {
+        background: #77aaff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="judul cf">
+          <img src="img/GuardNet Solution.png" alt="" />
+          <h1>SecureTech Solutions</h1>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="hero"></div>
+      <div class="content cf">
+        <h1>Hubungi Kami</h1>
+        <p>
+          Kami siap membantu Anda dengan segala kebutuhan keamanan siber Anda.
+          Jangan ragu untuk menghubungi kami melalui formulir di bawah ini atau
+          melalui informasi kontak yang disediakan.
+        </p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <h2>Informasi Kontak:</h2>
+        <ul>
+          <li>Alamat: Jl. Keamanan Siber No.1, Jakarta</li>
+          <li>Email: <a href="#">info@securetechsolutions.com</a></li>
+          <li>Telepon: +62 21 1234 5678</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <p class="copy">
+          &copy; 2024 SecureTech Solutions. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
