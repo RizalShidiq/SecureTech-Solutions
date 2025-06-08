@@ -29,7 +29,6 @@ Website ini dibangun menggunakan teknologi web fundamental yang andal dan teruji
 
   - **HTML5**: Untuk struktur dan konten halaman web.
   - **CSS3**: Untuk styling, layout, dan desain visual.
-  - **JavaScript**: Untuk fungsionalitas dinamis dan interaktivitas pada sisi klien.
 
 Tidak ada *framework* atau pustaka eksternal yang digunakan, menjadikan proyek ini ringan dan mudah dikelola.
 
@@ -42,8 +41,6 @@ Tidak ada *framework* atau pustaka eksternal yang digunakan, menjadikan proyek i
 ├── contact.html       # Halaman Kontak
 ├── css/
 │   └── style.css      # File styling utama
-├── js/
-│   └── script.js      # File JavaScript utama
 └── img/
     ├── logo.png       # Logo perusahaan
     └── ...            # Aset gambar lainnya
@@ -75,8 +72,3 @@ Saat ini, proyek ini dikelola secara internal. Namun, kami selalu terbuka untuk 
 **Kontributor Utama:**
 
   * **Rizal Shidiq** - [RizalShidiq](https://www.google.com/search?q=https://github.com/RizalShidiq)
-
------
-
-**Saran:**
-Anda dapat menyalin-tempel teks di atas ke dalam file baru bernama `README.md` di direktori utama repositori `SecureTech-Solutions`. Tautan gambar *screenshot* telah saya arahkan dengan benar sehingga akan langsung muncul saat Anda mengunggah filenya ke GitHub.
